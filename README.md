@@ -27,7 +27,7 @@ Choose your desired platform:
 | 2 | Save the `shiftleft.exe` file in a directory in your current `PATH` |
 | 3 | Generate a CloudGuard access token [in the CloudGuard portal](https://secure.dome9.com/v2/settings/credentials). <details><summary>*Show me how*</summary>![](https://secure.dome9.com/v2/assets/images/shiftleft/create-api-key.PNG)<br> ![](https://secure.dome9.com/v2/assets/images/shiftleft/new-api-key.PNG)</details> |
 | 4 | Set the CloudGuard ID and secret in your environment. In a windows command terminal type:<br><pre><code>setx CHKP_CLOUDGARD_ID the-token-id-from-step-3</code></pre><pre><code>setx CHKP\_CLOUDGUARD\_SECRET the-secret-from-step-3</code></pre>
-| 5 | Launch a new command terminal, and verify that **shiftleft** is properly installed: <pre><code>C:\\>shiftleft –-version</code></pre><br><pre><code>0.0.20 </code></pre>|
+| 5 | Launch a new command terminal, and verify that **shiftleft** is properly installed: <pre><code>C:\\>shiftleft –-version</code></pre><pre><code>0.0.20 </code></pre>|
 
 </details>
 
@@ -37,10 +37,10 @@ Choose your desired platform:
 | Step | Description |
 | ---- | ----------- |
 | 1 | Download the [x64](https://shiftleft-prod.s3.amazonaws.com/blades/shiftleft/bin/linux/amd64/0.0.24/shiftleft) or [386](https://shiftleft-prod.s3.amazonaws.com/blades/shiftleft/bin/linux/386/0.0.24/shiftleft) shiftleft standalone binary. |
-| 2 | Make shiftleft executable and move the file into a directory in your current `PATH`, for example:<pre><code>chmod +x shiftleft<br>mv shiftleft ~/bin </code></pre>|
+| 2 | Make shiftleft executable and move the file into a directory in your current `PATH`, for example:<pre><code>chmod +x shiftleft</code></pre><pre><code>mv shiftleft ~/bin </code></pre>|
 | 3 | Generate a CloudGuard access token [in the CloudGuard portal](https://secure.dome9.com/v2/settings/credentials). <details><summary>*Show me how*</summary>![](https://secure.dome9.com/v2/assets/images/shiftleft/create-api-key.PNG)<br> ![](https://secure.dome9.com/v2/assets/images/shiftleft/new-api-key.PNG)</details> |
-| 4 | Set the CloudGuard ID and secret in your environment as appropriate. For example, add the following to `~/.profile`<pre><code>export CHKP_CLOUDGARD_ID=*the-token-id-from-step-3*<br>export CHKP_CLOUDGUARD_SECRET=*the-secret-from-step-3*</code></pre> |
-| 5 | Launch a new command terminal, and verify that **shiftleft** is properly installed: <pre><code>$shiftleft –-version<br>0.0.20 </code></pre>|
+| 4 | Set the CloudGuard ID and secret in your environment as appropriate. For example, add the following to `~/.profile`<pre><code>export CHKP_CLOUDGARD_ID=*the-token-id-from-step-3*</code></pre><pre><code>export CHKP_CLOUDGUARD_SECRET=*the-secret-from-step-3*</code></pre> |
+| 5 | Launch a new command terminal, and verify that **shiftleft** is properly installed: <pre><code>$shiftleft –-version</code></pre><pre><code>0.0.20 </code></pre>|
 
 </details>
 
