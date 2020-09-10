@@ -26,7 +26,7 @@ Choose your desired platform:
 | 1 | Download the [x64](https://shiftleft-prod.s3.amazonaws.com/blades/shiftleft/bin/windows/amd64/0.0.24/shiftleft.exe) or [386](https://shiftleft-prod.s3.amazonaws.com/blades/shiftleft/bin/windows/386/0.0.24/shiftleft.exe) shiftleft standalone binary. |
 | 2 | Save the `shiftleft.exe` file in a directory in your current `PATH` |
 | 3 | Generate a CloudGuard access token [in the CloudGuard portal](https://secure.dome9.com/v2/settings/credentials). <details><summary>*Show me how*</summary>![](https://secure.dome9.com/v2/assets/images/shiftleft/create-api-key.PNG)<br> ![](https://secure.dome9.com/v2/assets/images/shiftleft/new-api-key.PNG)</details> |
-| 4 | Set the CloudGuard ID and secret in your environment. In a windows command terminal type:<code>setx CHKP_CLOUDGARD_ID the-token-id-from-step-3<br>setx CHKP\_CLOUDGUARD\_SECRET the-secret-from-step-3</code>
+| 4 | Set the CloudGuard ID and secret in your environment. In a windows command terminal type:<br><code>setx CHKP_CLOUDGARD_ID the-token-id-from-step-3</code><br><code>setx CHKP\_CLOUDGUARD\_SECRET the-secret-from-step-3</code>
 | 5 | Launch a new command terminal, and verify that **shiftleft** is properly installed: <pre><code>C:\\>shiftleft –-version
 0.0.20 </code></pre>|
 
