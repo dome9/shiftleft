@@ -26,7 +26,8 @@ Choose your desired platform:
 | 1 | Download the [x64](https://shiftleft-prod.s3.amazonaws.com/blades/shiftleft/bin/windows/amd64/0.0.24/shiftleft.exe) or [386](https://shiftleft-prod.s3.amazonaws.com/blades/shiftleft/bin/windows/386/0.0.24/shiftleft.exe) shiftleft standalone binary. |
 | 2 | Save the `shiftleft.exe` file in a directory in your current `PATH` |
 | 3 | Generate a CloudGuard access token [in the CloudGuard portal](https://secure.dome9.com/v2/settings/credentials). <details><summary>*Show me how*</summary>![](https://secure.dome9.com/v2/assets/images/shiftleft/create-api-key.PNG)<br> ![](https://secure.dome9.com/v2/assets/images/shiftleft/new-api-key.PNG)</details> |
-| 4 | Set the CloudGuard ID and secret in your environment. In a windows command terminal type:<br><pre><code>setx CHKP_CLOUDGARD_ID the-token-id-from-step-3<br>setx CHKP\_CLOUDGUARD\_SECRET the-secret-from-step-3 </code></pre> |
+| 4 | Set the CloudGuard ID and secret in your environment. In a windows command terminal type:<pre><code>setx CHKP_CLOUDGARD_ID the-token-id-from-step-3
+setx CHKP\_CLOUDGUARD\_SECRET the-secret-from-step-3</code></pre> |
 | 5 | Launch a new command terminal, and verify that **shiftleft** is properly installed: <pre><code>C:\\>shiftleft –-version
 0.0.20 </code></pre>|
 
@@ -75,10 +76,10 @@ There are many ways the shiftleft framework can be used, but to provide a basic 
 
 ### Scanning Terraform Templates for Risk
 
-|You have a Terraform configuration in the `my_config.tf` file, and you want to run ruleset #64 on this file to check if it is compliant.|
+|You have a Terraform configuration in the `my_config.tf` file, and you want to run ruleset number -64 on this file to check if it is compliant.|
 |-|
 ```bash
-shiftleft iac-assessment -p my_config.tf -r 64 
+shiftleft iac-assessment -p my_config.tf -r -64 
 ```
 
 Please refer to the detailed documentation for the iac-assesment blade below.
