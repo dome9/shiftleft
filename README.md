@@ -130,6 +130,6 @@ shiftleft -h
 To get help information about a specific blade, you could type:
 ```
 shiftleft image-scan -h
-
+```
 ## Limitations
 
