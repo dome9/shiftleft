@@ -74,10 +74,10 @@ There are many ways the shiftleft framework can be used, but to provide a basic 
 
 ### Scanning Terraform Templates for Risk
 
-|You have a Terraform configuration in the `my_config.tf` file, and you want to run ruleset number -64 on this file to check if it is compliant.|
+|You have a Terraform configuration in the `./my_config` folder, and you want to run ruleset number -64 on this file to check if it is compliant.|
 |-|
 ```bash
-shiftleft iac-assessment -p my_config.tf -r -64 
+shiftleft iac-assessment -p ./my_config -r -64 
 ```
 
 Please refer to the detailed documentation for the iac-assesment blade below.
@@ -130,6 +130,6 @@ shiftleft -h
 To get help information about a specific blade, you could type:
 ```
 shiftleft image-scan -h
-```
+``
 ## Limitations
 
